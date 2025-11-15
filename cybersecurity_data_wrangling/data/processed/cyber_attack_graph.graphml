@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="incidents" attr.type="long"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Attack::DDoS">
+  <data key="d0">attack_type</data>
+</node>
+<node id="Technique::T1498">
+  <data key="d0">technique</data>
+  <data key="d1">Network Denial of Service</data>
+</node>
+<node id="State::Manipur">
+  <data key="d0">state</data>
+</node>
+<node id="State::Karnataka">
+  <data key="d0">state</data>
+</node>
+<node id="State::Arunachal Pradesh">
+  <data key="d0">state</data>
+</node>
+<node id="State::Maharashtra">
+  <data key="d0">state</data>
+</node>
+<node id="State::Rajasthan">
+  <data key="d0">state</data>
+</node>
+<node id="Attack::Intrusion">
+  <data key="d0">attack_type</data>
+</node>
+<node id="Technique::T1078">
+  <data key="d0">technique</data>
+  <data key="d1">Valid Accounts</data>
+</node>
+<node id="State::Jharkhand">
+  <data key="d0">state</data>
+</node>
+<node id="State::Uttarakhand">
+  <data key="d0">state</data>
+</node>
+<node id="State::Uttar Pradesh">
+  <data key="d0">state</data>
+</node>
+<node id="Attack::Malware">
+  <data key="d0">attack_type</data>
+</node>
+<node id="Technique::T1587.001">
+  <data key="d0">technique</data>
+  <data key="d1">Malware</data>
+</node>
+<node id="State::Gujarat">
+  <data key="d0">state</data>
+</node>
+<node id="State::Sikkim">
+  <data key="d0">state</data>
+</node>
+<node id="State::West Bengal">
+  <data key="d0">state</data>
+</node>
+<edge source="Attack::DDoS" target="Technique::T1498">
+  <data key="d2">13428</data>
+</edge>
+<edge source="Attack::DDoS" target="State::Manipur">
+  <data key="d2">522</data>
+</edge>
+<edge source="Attack::DDoS" target="State::Karnataka">
+  <data key="d2">520</data>
+</edge>
+<edge source="Attack::DDoS" target="State::Arunachal Pradesh">
+  <data key="d2">502</data>
+</edge>
+<edge source="Attack::DDoS" target="State::Maharashtra">
+  <data key="d2">499</data>
+</edge>
+<edge source="Attack::DDoS" target="State::Rajasthan">
+  <data key="d2">497</data>
+</edge>
+<edge source="State::Manipur" target="Attack::Intrusion">
+  <data key="d2">500</data>
+</edge>
+<edge source="State::Arunachal Pradesh" target="Attack::Intrusion">
+  <data key="d2">499</data>
+</edge>
+<edge source="State::Maharashtra" target="Attack::Malware">
+  <data key="d2">495</data>
+</edge>
+<edge source="Attack::Intrusion" target="Technique::T1078">
+  <data key="d2">13265</data>
+</edge>
+<edge source="Attack::Intrusion" target="State::Jharkhand">
+  <data key="d2">526</data>
+</edge>
+<edge source="Attack::Intrusion" target="State::Uttarakhand">
+  <data key="d2">520</data>
+</edge>
+<edge source="Attack::Intrusion" target="State::Uttar Pradesh">
+  <data key="d2">497</data>
+</edge>
+<edge source="State::Uttar Pradesh" target="Attack::Malware">
+  <data key="d2">498</data>
+</edge>
+<edge source="Attack::Malware" target="Technique::T1587.001">
+  <data key="d2">13307</data>
+</edge>
+<edge source="Attack::Malware" target="State::Gujarat">
+  <data key="d2">508</data>
+</edge>
+<edge source="Attack::Malware" target="State::Sikkim">
+  <data key="d2">498</data>
+</edge>
+<edge source="Attack::Malware" target="State::West Bengal">
+  <data key="d2">498</data>
+</edge>
+</graph></graphml>
